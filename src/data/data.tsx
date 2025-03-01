@@ -216,7 +216,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Bucees Project',
     description: 'A direct link that leads to our source code. Fully documented with version histories.',
-    url: 'https://github.com/Adlaw-Andador/BUCEES-PROJECT',
+    url: 'https://github.com/DaJdanni/507A-BOT',
     image: buceesProject,
   },
   {
