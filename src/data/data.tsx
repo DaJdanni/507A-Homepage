@@ -69,10 +69,10 @@ export const aboutUs: Hero = {
     <>
       
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Welcome to the hompage of 507A. This is a boilerplate website used to display simple stats, programmer profiles, and a way to easily manage our projects that we've used for the High Stakes 24-25 robotics season.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      This website was created on top of a template website by Tim Baker. We've redesigned this website using typescript, html, css, and javascript in order to create a custom experience for judges to view. This website was deployed using Vercel, a free frontend cloud service that helps user deploy their websites and apps in real time.
       </p>
     </>
   ),
