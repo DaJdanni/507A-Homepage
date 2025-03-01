@@ -2,9 +2,10 @@ import {BoltIcon, ChevronUpIcon} from '@heroicons/react/24/solid';
 import {FC, memo} from 'react';
 
 import {SectionId} from '../../data/data';
-import Socials from '../Socials';
+// import Socials from '../Socials';
+// import Resume from './Resume';
 
-const currentYear = new Date().getFullYear();
+// const currentYear = new Date().getFullYear();
 
 const Footer: FC = memo(() => (
   <div className="relative bg-neutral-900 px-4 pb-6 pt-12 sm:px-8 sm:pb-8 sm:pt-14">
@@ -16,19 +17,15 @@ const Footer: FC = memo(() => (
       </a>
     </div>
     <div className="flex flex-col items-center gap-y-6">
-      <div className="flex gap-x-4 text-neutral-500">
-        <Socials />
-      </div>
       <a
-        className="-m-2 flex items-center gap-x-1 rounded-md p-2 ring-yellow focus:outline-none focus:ring-2"
-        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        className="-m-2 flex items-center gap-x-1 rounded-md p-1 ring-yellow focus:outline-none focus:ring-2"
+        href="https://github.com/DaJdanni">
         <BoltIcon className="h-5 w-5 text-yellow" />
         <span>
-          Provided by <span className="text-white">Rick</span>
-          <span className="italic text-yellow">Astley</span>
+          Built by <span className="text-white">Jordan</span>
+          <span className="text-white"> Samaniego</span>
         </span>
       </a>
-      <span className="text-sm text-neutral-700">© Copyright {currentYear} Lorem Ipsum</span>
     </div>
   </div>
 ));

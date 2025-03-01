@@ -13,6 +13,9 @@ import temporary from '../assets/gatekep/black.png'
 import jordanPFP from '../assets/githubjordan.jpg'
 //import foreground from '../assets/foregroundcheck.jpg'
 import buceesProject from '../assets/logos/buceesProject.png'
+import pathTranslator from '../assets/logos/pathTranslator.png'
+import buceesUpdater from '../assets/logos/buceesUpdater.png'
+import buceesDocumentation from '../assets/logos/buceesDocumentation.png'
 import rishayPFP from '../assets/rishaygithub.png'
 /*import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -38,7 +41,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: '507A Homepage',
-  description: "Example site built with Tim Baker's react resume template",
+  description: "Documentation site built with Tim Baker's react resume template",
 };
 
 /**
@@ -60,7 +63,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 /**
  * Hero section
  */
-export const heroData: Hero = {
+export const aboutUs: Hero = {
   name: `507A`,
   description: (
     <>
@@ -213,26 +216,26 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Bucees Project',
     description: 'A direct link that leads to our source code. Fully documented with version histories.',
-    url: 'https://reactresume.com',
+    url: 'https://github.com/Adlaw-Andador/BUCEES-PROJECT',
     image: buceesProject,
   },
   {
     title: 'Bucees Updater',
     description: 'A VS-Code extension that can manage all versions of our code and share it easily amongst our team.',
-    url: 'https://reactresume.com',
-    image: temporary,
+    url: 'https://github.com/Adlaw-Andador/Bucees-Updater',
+    image: buceesUpdater,
   },
   {
-    title: 'Season Documentation',
-    description: 'A quick rundown of how our season has gone as programmers. As well as any substantial changes we have added.',
-    url: 'https://reactresume.com',
-    image: temporary,
+    title: 'Bucees Path Translator',
+    description: 'A path.jerryio path translator to bucees project odometry.',
+    url: 'https://github.com/Adlaw-Andador/Path-Translator',
+    image: pathTranslator,
   },
   {
     title: 'Bucees Project Documentation',
     description: 'An API documentation that teaches you how to use our code efficiently.',
-    url: 'https://reactresume.com',
-    image: temporary,
+    url: 'https://507a.gitbook.io/bucees-project',
+    image: buceesDocumentation,
   },
 ];
 
