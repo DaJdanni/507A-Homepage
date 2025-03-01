@@ -10,7 +10,7 @@ import Hero from '../components/Sections/Hero';
 import Portfolio from '../components/Sections/Portfolio';
 import Jordan from '../components/Sections/Programmers/jordan'
 import Rishay from '../components/Sections/Programmers/rishay'
-import Resume from '../components/Sections/Resume';
+//import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
 import {homePageMeta} from '../data/data';
 
