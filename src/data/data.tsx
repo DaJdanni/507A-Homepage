@@ -290,24 +290,29 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: '16th Annual Chula Vista Tournament',
-      text: 'Lorem ipsum',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      text: 'Won: Tournament Champion, Innovate Award',
+      image: 'https://static.wixstatic.com/media/f9fd96_5758a7901c6c46e9b7591eeae6a8f774~mv2.png/v1/fill/w_320,h_320,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/f9fd96_5758a7901c6c46e9b7591eeae6a8f774~mv2.png',
     },
     {
       name: 'Supernova Spectacular High School Tournament',
-      text: 'Lorem ipsum',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      text: 'Won: Think Award',
+      image: 'https://yt3.googleusercontent.com/eXhmT8OENKCXjvX82ISsupZ0FfG0o63cFlLKHbs1x5ZkpGcznRQExQ_zBcYVO5pTmQ5IWWD5=s160-c-k-c0x00ffffff-no-rj',
     },
     {
       name: 'South San Diego High Stakes Tournament',
-      text: 'Lorem ipsum',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      text: 'Won: Tournament Champion',
+      image: 'https://ccr.sweetwaterschools.org/wp-content/uploads/blogs.dir/116/files/2022/06/STEAM-Logo-Color_300-ppi-300x298.png',
     },
     {
       name: 'Chaminade Showdown V5RC High Stakes Tournament',
-      text: 'Lorem ipsum.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      text: 'Won: Robot Skills Champion, Think Award',
+      image: 'https://www.robotevents.com/uploads/team_regs/b08ff690df88fa419c4657e4b2d7fae3.png?1722187855',
     },
+    {
+      name: '2024 SUHSD VEX Robotics HS League',
+      text: 'Won: Tournament Champion, Robot Skills Champion',
+      image: 'https://ccr.sweetwaterschools.org/wp-content/uploads/blogs.dir/116/files/2022/06/STEAM-Logo-Color_300-ppi-300x298.png',
+    }
   ],
 };
 
