@@ -17,7 +17,7 @@ import pathTranslator from '../assets/logos/pathTranslator.png'
 import buceesUpdater from '../assets/logos/buceesUpdater.png'
 import buceesDocumentation from '../assets/logos/buceesDocumentation.png'
 import rishayPFP from '../assets/rishaygithub.png'
-import testImage from '../assets/imageLogo.png'
+//import testImage from '../assets/imageLogo.png'
 /*import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
