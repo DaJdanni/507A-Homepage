@@ -17,6 +17,7 @@ import pathTranslator from '../assets/logos/pathTranslator.png'
 import buceesUpdater from '../assets/logos/buceesUpdater.png'
 import buceesDocumentation from '../assets/logos/buceesDocumentation.png'
 import rishayPFP from '../assets/rishaygithub.png'
+import testImage from '../assets/imageLogo.png'
 /*import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -312,6 +313,11 @@ export const testimonial: TestimonialSection = {
       name: '2024 SUHSD VEX Robotics HS League',
       text: 'Won: Tournament Champion, Robot Skills Champion',
       image: 'https://ccr.sweetwaterschools.org/wp-content/uploads/blogs.dir/116/files/2022/06/STEAM-Logo-Color_300-ppi-300x298.png',
+    },
+    {
+      name: 'San Diego "High Stakes" Last Hurrah Open',
+      text: 'Won: Tournament Finalist, Excellence Award',
+      image: 'https://yt3.googleusercontent.com/ytc/AIdro_mvW-RUVt9WVoqL27QTYSqbEoEwxFWHam6QnIF-bKMK7zM=s160-c-k-c0x00ffffff-no-rj',
     }
   ],
 };
