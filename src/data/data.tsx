@@ -10,12 +10,13 @@ import {
 } from '@heroicons/react/24/outline';
 
 import temporary from '../assets/gatekep/black.png'
+import foreground from '../assets/FOREGROUND.png'
 import jordanPFP from '../assets/githubjordan.jpg'
 //import foreground from '../assets/foregroundcheck.jpg'
-import buceesProject from '../assets/logos/buceesProject.png'
-import pathTranslator from '../assets/logos/pathTranslator.png'
-import buceesUpdater from '../assets/logos/buceesUpdater.png'
-import buceesDocumentation from '../assets/logos/buceesDocumentation.png'
+import buceesProject from '../assets/logos/buceesProjectForeground.png'
+import pathTranslator from '../assets/logos/pathTranslatorForeground.png'
+import buceesUpdater from '../assets/logos/mclKalmanForeground.png'
+import buceesDocumentation from '../assets/logos/buceesProjectDocForeground.png'
 import rishayPFP from '../assets/rishaygithub.png'
 //import testImage from '../assets/imageLogo.png'
 /*import GithubIcon from '../components/Icon/GithubIcon';
@@ -27,7 +28,7 @@ import {
   About,
   ContactSection,
  // ContactType,
-  Hero,
+  Home,
   HomepageMeta,
   PortfolioItem,
   Programmers,
@@ -42,14 +43,14 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: '507A Homepage',
-  description: "Documentation site built with Tim Baker's react resume template",
+  description: "Documentation site",
 };
 
 /**
  * Section definition
  */
 export const SectionId = {
-  Hero: 'hero',
+  Home: 'Home',
   About: 'Meet The Programmers',
   Contact: 'contact',
   Portfolio: 'Documentations',
@@ -64,13 +65,13 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 /**
  * Hero section
  */
-export const aboutUs: Hero = {
+export const aboutUs: Home = {
   name: `507A`,
   description: (
     <>
       
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-      Welcome to the hompage of 507A. This is a boilerplate website used to display simple stats, programmer profiles, and a way to easily manage our projects that we've used for the High Stakes 24-25 robotics season.
+      Welcome to the homepage of 507A. This is a boilerplate website used to display simple stats, programmer profiles, and a way to easily manage our projects that we've used for the High Stakes 24-25 robotics season.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
       This website was created on top of a template website by Tim Baker. We've redesigned this website using typescript, html, css, and javascript in order to create a custom experience for judges to view. This website was deployed using Vercel, a free frontend cloud service that helps user deploy their websites and apps in real time.
@@ -90,6 +91,7 @@ export const aboutUs: Hero = {
     //   primary: false,
     // },
   ],
+  imageSrc: foreground 
 };
 
 /**
@@ -127,12 +129,12 @@ export const rishayData: Programmers = {
   name: `Rishay Singh`, 
   description: (
     <p className="prose prose-sm text-gray-300 sm:prose-base">
-    Role: <strong className="font-bold text-gray-300">Frontend Developer of Bucees Template, Auton Developer, <br /> Website Developer, Main Documentaor</strong> <br />
+    Role: <strong className="font-bold text-gray-300">Frontend Developer of Bucees Template, Auton Developer, <br /> Website Developer, Main Documentator</strong> <br />
     </p>
   ),
   aboutItems: [
     {label: 'Programming Languages', text: 'C++, Typescript, CSS, HTML', Icon: CommandLineIcon},
-    {label: 'Years of Experience', text: '1', Icon: CalendarIcon},
+    {label: 'Years of Experience', text: '2', Icon: CalendarIcon},
   ],
 }
 

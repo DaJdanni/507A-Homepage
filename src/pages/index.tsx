@@ -6,7 +6,7 @@ import Page from '../components/Layout/Page';
 //import About from '../components/Sections/About';
 //import Contact from '../components/Sections/Contact';
 import Footer from '../components/Sections/Footer';
-import Hero from '../components/Sections/Hero';
+import Hero from '../components/Sections/Home';
 import Portfolio from '../components/Sections/Portfolio';
 import Jordan from '../components/Sections/Programmers/jordan'
 import Rishay from '../components/Sections/Programmers/rishay'

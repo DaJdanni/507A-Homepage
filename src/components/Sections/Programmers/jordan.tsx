@@ -8,8 +8,11 @@ import Section from '../../Layout/Section';
 const Jordan: FC = memo(() => {
   const {profileImageSrc, name, description, aboutItems} = jordanData;
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.About}>
-      <div className={classNames('grid grid-cols-1 gap-y-4', {'md:grid-cols-4': !!profileImageSrc})}>
+    <Section className="bg-[#0d0d0d]" sectionId={SectionId.About}>
+      <h2 className="text-center text-1xl font-bold text-white md:text-4xl mb-24 z-10 text-center text-3xl font-bold text-white">
+        The Programmers of 507A
+      </h2>
+      <div className={classNames('grid grid-cols-1 gap-y-5', {'md:grid-cols-4': !!profileImageSrc})}>
         {!!profileImageSrc && (
           <div className="col-span-1 flex justify-center md:justify-start">
             <div className="relative h-24 w-24 overflow-hidden rounded-xl md:h-32 md:w-32">

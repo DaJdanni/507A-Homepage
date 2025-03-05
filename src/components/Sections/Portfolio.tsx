@@ -11,18 +11,18 @@ import Section from '../Layout/Section';
 
 const Portfolio: FC = memo(() => {
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.Portfolio}>
+    <Section className="bg-[#0d0d0d]" sectionId={SectionId.Portfolio}>
       <div className="flex flex-col gap-y-8">
-        <h2 className="self-center text-xl font-bold text-white">Check out our branching websites and GitHub</h2>
+        <h2 className="self-center text-3xl font-bold text-white">External Website/GitHub Links</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {portfolioItems.map((item, index) => {
             const { title, image } = item;
             return (
               <div className="relative overflow-hidden rounded-lg shadow-lg shadow-black/30 lg:shadow-xl" key={`${title}-${index}`}>
-                <div className="w-full aspect-[4/3] relative"> {/* Maintain a uniform aspect ratio */}
+                <div className="w-full aspect-[4/2.5] relative">
                   <Image 
                     alt={title} 
-                    className="absolute inset-0 w-full h-full object-cover" 
+                    className="absolute inset-0 w-full h-full object-full" 
                     placeholder="blur" 
                     src={image} 
                   />
@@ -67,7 +67,7 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
   return (
     <a
       className={classNames(
-        'absolute inset-0 h-full w-full  bg-gray-900 transition-all duration-300',
+        'absolute inset-0 h-full w-full  bg-[#0d0d0d] transition-all duration-300',
         {'opacity-0 hover:opacity-80': !mobile},
         showOverlay ? 'opacity-80' : 'opacity-0',
       )}

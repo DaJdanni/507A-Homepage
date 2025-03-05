@@ -1,13 +1,13 @@
 import classNames from 'classnames';
-import {FC, memo, UIEventHandler, useCallback, useEffect, useMemo, useRef, useState} from 'react';
+import {FC, memo, UIEventHandler, useCallback, useEffect, useRef, useState} from 'react';
 
 import {isApple, isMobile} from '../../config';
 import {SectionId, testimonial} from '../../data/data';
-import {Testimonial} from '../../data/dataDef';
 import useInterval from '../../hooks/useInterval';
 import useWindow from '../../hooks/useWindow';
 import QuoteIcon from '../Icon/QuoteIcon';
 import Section from '../Layout/Section';
+import { Testimonial } from '../../data/dataDef';
 
 const Testimonials: FC = memo(() => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
@@ -19,12 +19,12 @@ const Testimonials: FC = memo(() => {
 
   const {width} = useWindow();
 
-  const {imageSrc, testimonials} = testimonial;
+  const {testimonials} = testimonial;
 
-  const resolveSrc = useMemo(() => {
-    if (!imageSrc) return undefined;
-    return typeof imageSrc === 'string' ? imageSrc : imageSrc.src;
-  }, [imageSrc]);
+  // const resolveSrc = useMemo(() => {
+  //   if (!imageSrc) return undefined;
+  //   return typeof imageSrc === 'string' ? imageSrc : imageSrc.src;
+  // }, [imageSrc]);
 
   // Mobile iOS doesn't allow background-fixed elements
   useEffect(() => {
@@ -71,15 +71,18 @@ const Testimonials: FC = memo(() => {
 
   return (
     <Section noPadding sectionId={SectionId.Testimonials}>
-      <div
-        className={classNames(
-          'flex w-full items-center justify-center bg-cover bg-center px-4 py-16 md:py-24 lg:px-8',
-          parallaxEnabled && 'bg-fixed',
-          {'bg-neutral-700': !imageSrc},
-        )}
-        style={imageSrc ? {backgroundImage: `url(${resolveSrc}`} : undefined}>
+    <div
+      className={classNames(
+        'flex w-full items-center justify-center px-4 py-16 md:py-24 lg:px-8',
+        parallaxEnabled && 'bg-fixed',
+        'bg-[#0d0d0d]'
+      )}
+    >
         <div className="z-10 w-full max-w-screen-md px-4 lg:px-0">
-          <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/60 p-6 shadow-lg">
+        <h2 className="text-center text-3xl font-bold text-white md:text-3xl mb-8 z-10 text-center text-3xl font-bold text-white">
+        Our Tournament History
+        </h2>
+          <div className="flex flex-col items-center gap-y-6 rounded-xl bg-[#2f2f30] p-6 shadow-lg">
             <div
               className="no-scrollbar flex w-full touch-pan-x snap-x snap-mandatory gap-x-6 overflow-x-auto scroll-smooth"
               onScroll={handleScroll}
@@ -129,7 +132,7 @@ const Testimonial: FC<{testimonial: Testimonial; isActive: boolean}> = memo(
       )}
       <div className="flex flex-col gap-y-4">
         <p className="prose prose-sm font-medium italic text-white sm:prose-base">{name}</p>
-        <p className="text-xs italic text-white sm:text-sm md:text-base lg:text-lg">-- {text}</p>
+        <p className="text-xs italic text-white sm:text-sm md:text-base lg:text-lg">{text}</p>
       </div>
     </div>
   ),
