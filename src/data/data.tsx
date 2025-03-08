@@ -223,9 +223,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: buceesProject,
   },
   {
-    title: 'Bucees Updater',
+    title: 'MCL/Kalman Filter Documentation',
     description: 'A VS-Code extension that can manage all versions of our code and share it easily amongst our team.',
-    url: 'https://github.com/Adlaw-Andador/Bucees-Updater',
+    url: 'https://507a.gitbook.io/507aprogdocumentation',
     image: buceesUpdater,
   },
   {
