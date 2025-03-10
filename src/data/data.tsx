@@ -224,7 +224,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'MCL/Kalman Filter Documentation',
-    description: 'A VS-Code extension that can manage all versions of our code and share it easily amongst our team.',
+    description: 'A gitbook documenting our experiences with Monte Carlo Localization and Kalman Filters.',
     url: 'https://507a.gitbook.io/507aprogdocumentation',
     image: buceesUpdater,
   },
